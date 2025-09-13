@@ -32,3 +32,8 @@ Estrutura e funcionalidades obrigatórias:
         Campo de busca por Rover ou Câmera
         Campo para selecionar qual(is) câmera(s) foram usadas
         Campo para selecionar uma data
+
+Como forma de acelerar a execução do projeto, busquei formas de iniciar de maneira organizada, e também menos trabalhosa devido ao pouco tempo para execução.
+Assim, usei o comando:
+    ```npx create-next-app@latest```
+    Esse comando inicia o projeto criando a estrutura de pastas e arquivos básicos, assim como instalando as dependências básicas para o projeto. Ter ali o mínimo necessário para começar ajudou no processo de aprendizagem, pois vemos como é a estrutura inicial, como é a estrutura dos arquivos, visto que o pacote cria arquivos funcionais básicos que só precisamos editar e encaixar aos moldes do nosso projeto. 
