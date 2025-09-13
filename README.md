@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# O DESAFIO:
 
-## Getting Started
+Recebi o desafio de fazer esse projeto, que particularmente, foi mesmo um desafio.
+O único requisito obrigatório, se tratava de uma tecnologia da qual eu ainda não tinha visto ou aprendido sobre.
+Diante disso, tinha duas opções:
+    - Deixar pra lá e abrir mão, não realizando o projeto.
+    - Ou, tentar realizar o projeto, aprendendo uma coisa nova, mesmo que no final não desse certo.
+Bom, se chegaram até aqui, foi porque resolvi me arriscar (risos).
+Busquei vídeos para ver sobre o NEXT.js 15, achando muito vagas as informações.
+Resolvi então buscar ajuda na plataforma da qual sou assinante, a DIO, e ver sobre TypeScript. O que me foi bem esclarecedor em diversos pontos.
+Aliada a documentação, documentação do projeto, e tudo que tinha em mãos, resolvi encarar essa jornada.
+O projeto infelizmente não está completo, mas está sendo de grande aprendizado para mim.
 
-First, run the development server:
+# SOBRE O PROJETO:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+O projeto se trata de criar uma página onde os usuários possam visualizar, buscar e filtrar dados e imagens de Marte capturadas por Rovers da NASA.
+Cada imagem deve ter informações de sia captura como: Data da foto, nome da câmera usada e o nome do Rover que a capturou.
+Deve filtrar informações como:
+    - Selecionar o rover
+    - Selecionar quais câmeras foram usadas
+    - Selecionar uma data
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A tecnologia obrigatória: Next.js 15
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Estrutura e funcionalidades obrigatórias:
+    1. Header
+    2. Seção de conteúdo
+        As imagens devem ser consumidas da (API da NASA)[https://api.nasa.gov/#mars-rover-photos] na seção Mars Rover Photos
+    3. Footer
+    4. Deve ter paginação
+    5. Busca por filtros
+        Campo de busca por Rover ou Câmera
+        Campo para selecionar qual(is) câmera(s) foram usadas
+        Campo para selecionar uma data
