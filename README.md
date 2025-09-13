@@ -25,7 +25,7 @@ A tecnologia obrigatória: Next.js 15
 Estrutura e funcionalidades obrigatórias:
     1. Header
     2. Seção de conteúdo
-        As imagens devem ser consumidas da (API da NASA)[https://api.nasa.gov/#mars-rover-photos] na seção Mars Rover Photos
+        As imagens devem ser consumidas da [API da NASA](https://api.nasa.gov/#mars-rover-photos) na seção Mars Rover Photos
     3. Footer
     4. Deve ter paginação
     5. Busca por filtros
